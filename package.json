@@ -1,0 +1,24 @@
+{
+  "name": "scilent-one",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@repo/tooling": "workspace:*",
+    "@turbo/gen": "^2.3.7",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.3.7",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.15.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
